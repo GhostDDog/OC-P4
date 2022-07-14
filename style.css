@@ -27,6 +27,13 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.keywords {
+    display: none;
+}
+.image-resize-mode{
+    width: 30%;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -677,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 11pt;
 }
 
 .tight-width-whitespace {
