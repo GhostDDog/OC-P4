@@ -33,6 +33,21 @@ a:hover {
 .image-resize-mode{
     width: 30%;
 }
+.citation1 {
+    font-size: 14pt;
+    font-style: italic;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#citation2 {
+    font-size: 13pt;
+}
+.title2 {
+    font-size: 18pt;
+}
 
 .bloc {
     width: 100%;
