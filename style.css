@@ -27,6 +27,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/* START modifications apporté */
 .keywords {
     display: none;
 }
@@ -45,9 +46,25 @@ a:hover {
 #citation2 {
     font-size: 13pt;
 }
+.col-sm-4 {
+    margin-bottom: 10px;
+}
 .title2 {
     font-size: 18pt;
 }
+ul li {
+    list-style-type: none;   
+}
+.link-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;   
+}
+.title-li{
+    margin-left: 40px;
+    font-size: 14pt;
+}
+/* END modification apporté */
 
 .bloc {
     width: 100%;
@@ -724,10 +741,12 @@ p {
 .social {
     max-width: 400px;
     margin: auto;
+    /*START modification*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10px;
+    /*END modification*/
 }
 
 h2 {
@@ -872,6 +891,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1064,5 +1084,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-responsive {
+        width: 100%;
     }
 }
