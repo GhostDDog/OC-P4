@@ -64,6 +64,14 @@ ul li {
     margin-left: 40px;
     font-size: 14pt;
 }
+textarea {
+    height: 200px;
+}
+.cont-form {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
 /* END modification apporté */
 
 .bloc {
@@ -85,6 +93,7 @@ ul li {
 
 .bloc-lg {
     padding: 100px 50px;
+    
 }
 
 .bloc-md {
@@ -545,7 +554,13 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(255, 0, 0, 0.1);
+    /* START modification */
+    border-radius: 10px 10px;
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+    /*END modification */
     box-shadow: none;
 }
 
@@ -693,9 +708,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -746,6 +758,7 @@ p {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
+    margin-bottom: 10px;
     /*END modification*/
 }
 
@@ -1027,6 +1040,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        
     }
     .bloc-sm,
     .bloc-md {
@@ -1087,5 +1101,10 @@ h4 {
     }
     .img-responsive {
         width: 100%;
+    }
+    .portfolio-row {
+        display: flex;
+        
+        flex-direction: column;
     }
 }
