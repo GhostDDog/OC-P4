@@ -29,6 +29,7 @@ a:hover {
 }
 
 /* START modifications apporté */
+
 .margin-tL {
     margin-top: 20px;
     margin-left: 5px;
@@ -51,6 +52,7 @@ a:hover {
 #citation2 {
     font-size: 13pt;
 }
+
 .col-sm-4 {
     margin-bottom: 10px;
 }
@@ -77,6 +79,7 @@ textarea {
     text-align: left;
 }
 
+
 /* END modification apporté */
 
 .bloc {
@@ -89,7 +92,8 @@ textarea {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
+    
+    }
 
 .bloc .container {
     padding-left: 0;
@@ -448,6 +452,9 @@ textarea {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+    .bloc-7 {
+        margin-left: 15%;
     }
 }
 
@@ -844,7 +851,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #9b654c!important;
+    background: #444444!important;
     color: #FFFFFF!important;
 }
 
