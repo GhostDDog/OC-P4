@@ -29,6 +29,10 @@ a:hover {
 }
 
 /* START modifications apporté */
+.margin-tL {
+    margin-top: 20px;
+    margin-left: 5px;
+}
 .keywords {
     display: none;
 }
@@ -69,10 +73,10 @@ textarea {
     height: 200px;
 }
 .cont-form {
-    display: flex;
-    justify-content: center;
+    position: relative;
     text-align: left;
 }
+
 /* END modification apporté */
 
 .bloc {
@@ -93,7 +97,7 @@ textarea {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
     
 }
 
@@ -738,7 +742,9 @@ p {
 }
 
 .cta-hero {
+    width: 400px;
     margin-top: 22px;
+    margin-left: 5px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
