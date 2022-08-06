@@ -71,6 +71,8 @@ ul li a{
     margin-left: 40px;
     font-size: 14pt;
 }
+/* début modif Page contact */
+
 textarea {
     height: 200px;
 }
@@ -78,7 +80,24 @@ textarea {
     position: relative;
     text-align: left;
 }
+input:invalid {
+    background-color: rgb(255, 0, 43);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    font-weight: 600;
+  }
+.etoile {
+    font-style: italic;
+}
+form ::placeholder {
+    font-size: 1.5em;
+}
+label {
+    margin-left: 5px;
+}
 
+/* fin modif page contact */
 
 /* END modification apporté */
 
@@ -454,7 +473,7 @@ textarea {
         margin: 10px auto 0;
     }
     .bloc-7 {
-        margin-left: 15%;
+        margin-left: 20%;
     }
 }
 
@@ -975,6 +994,9 @@ h4 {
     }
     .b-parallax {
         background-attachment: scroll;
+    }
+    .bloc-7 {
+        margin-left: 15%;
     }
     .navbar .nav {
         padding-top: 0;
