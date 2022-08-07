@@ -5,7 +5,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/webp" href="favicon.webp">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -43,10 +43,10 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html" aria-label="accueil">Accueil</a>
 					</li>
 					<li>
-						<a href="page2.html">Contact</a>
+						<a href="page2.html" aria-label="contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -81,18 +81,18 @@
 				<form id="form_1" novalidate success-msg="Your message has been sent.">
 					<div class="form-group">
 						<label>Nom</label>
-						<input id="name" class="form-control" placeholder="*" aria-required="true">
+						<input id="name" class="form-control" placeholder="*" aria-required="true" aria-label="Nom">
 					</div>
-					<div class="form-group"><label>Email
-						<input id="email" class="form-control" type="email" placeholder="*" aria-required="true" /></label>
+					<div class="form-group"><label>Email</label>
+						<input id="email" class="form-control" type="email" placeholder="*" aria-required="true" aria-label="email" />
 					</div>
-					<div class="form-group"><label>Comment nous avez-vous connu ?
-						<input class="form-control" /></label>
+					<div class="form-group"><label>Comment nous avez-vous connu ?</label>
+						<input class="form-control" aria-label="comment nous avez-vous connu" />
 					</div>
-					<div class="form-group"><label>Votre projet
-						<textarea id="message" class="form-control" placeholder="*" rows="4" cols="50" aria-required="true"></textarea></label>
+					<div class="form-group"><label>Votre projet</label>
+						<textarea id="message" class="form-control" placeholder="*" rows="4" cols="50" aria-required="true" aria-label="Votre projet"></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-required="true">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-required="true" aria-label="Envoyer">
 						Envoyer
 					</button>
 				</form>
@@ -125,22 +125,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="#" aria-label="twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="#" aria-label="facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="#" aria-label="dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="#" aria-label="instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
