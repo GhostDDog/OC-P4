@@ -47,9 +47,13 @@ button {
 	transition: .3s ease-in-out
 }
 
-.citation1,
+.citation1{
+	font-style: italic;
+	text-align: left;
+}
 .etoile {
-	font-style: italic
+	font-style: italic;
+	
 }
 
 body {
@@ -816,11 +820,11 @@ h3 {
 }
 
 .banniere {
-	background-color: #d36532
+	background-color: #AA6338;
 }
 
 .bgc-atomic-tangerine {
-	background-color: #444
+	background-color: #AA6338;
 }
 
 .btn-atomic-tangerine {
@@ -852,7 +856,7 @@ h3 {
 
 
 
-@media (max-width:992px) and (min-width:768px) {
+@media (min-width:768px) {
 	.navbar .nav {
 		max-width: 80%
 	}
@@ -860,10 +864,12 @@ h3 {
 	.nav-center.navbar .nav {
 		max-width: 100%
 	}
-    .bloc-7 {
-        margin-left: 2%!important;
-        
-    }
+	.bloc-7 {
+		display: flex;
+		justify-content: center;
+		
+	}
+    
 }
 .bloc-group,
 .bloc-group .bloc {
@@ -875,10 +881,7 @@ h3 {
 .bloc-fill-screen .fill-bloc-top-edge {
 	padding: 0 20px;
 }
-.bloc-7 {
-    margin-left: 28%!important;
-    
-}
+
 
 
 @media (max-width:767px) {
@@ -887,7 +890,8 @@ h3 {
 		position: relative
 	}
     .bloc-7 {
-        margin-left: 25%!important;
+        display: flex;
+		justify-content: center;
         
     }
     
@@ -1066,8 +1070,8 @@ h3 {
 		position: relative
 	}
     .bloc-7 {
-        margin-left: 20%!important;
-        
+        display: flex;
+		justify-content: center;
     }
 }
 @media (max-width:600px) {
@@ -1076,7 +1080,8 @@ h3 {
 		position: relative
 	}
     .bloc-7 {
-        margin-left: 15%!important;
+        display: flex;
+		justify-content: center;
         
     }
 }
