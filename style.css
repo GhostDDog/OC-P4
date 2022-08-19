@@ -101,7 +101,8 @@ a:hover {
 }
 
 .title2 {
-	font-size: 18pt
+	font-size: 18pt;
+	margin-top: 20px;
 }
 
 .d-bloc .a-btn,
@@ -894,7 +895,9 @@ h3 {
 		justify-content: center;
         
     }
-    
+    .logo1 {
+		width: 80%!important;
+	}
 
 	#disqus_thread,
 	h1,
@@ -979,7 +982,6 @@ h3 {
 	}
 
 	.navbar-brand img {
-		max-height: 40px;
 		width: auto
 	}
 
