@@ -3,7 +3,6 @@
 	margin-bottom: 10px
 }
 
-.margin-tL,
 label {
 	margin-left: 5px
 }
@@ -53,7 +52,8 @@ button {
 }
 .etoile {
 	font-style: italic;
-	
+	margin-top: -20px;
+	padding-bottom: 20px;
 }
 
 body {
@@ -62,7 +62,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
-
+#adrss {
+	display:block;
+	text-align: center;
+	
+}
 a:hover {
 	text-decoration: none;
 	cursor: pointer
@@ -78,7 +82,9 @@ a:hover {
 }
 
 .margin-tL {
-	margin-top: 20px
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 10rem;
 }
 
 .image-resize-mode {
